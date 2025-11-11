@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+.btn { @apply inline-flex items-center gap-2 rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm font-medium shadow-sm hover:bg-gray-50 active:scale-[0.99] transition; }
+.btn-primary { @apply bg-blue-600 text-white border-blue-600 hover:bg-blue-700; }
+.btn-ghost { @apply border-transparent bg-transparent hover:bg-gray-100; }
+.input { @apply w-full rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500; }
+.prose h3 { @apply text-base font-semibold mt-4; }
